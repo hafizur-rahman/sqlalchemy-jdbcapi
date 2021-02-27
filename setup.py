@@ -36,6 +36,7 @@ setup(
         "sqlalchemy.dialects": [
             "jdbcapi.pgjdbc = sqlalchemy_jdbcapi.pgjdbc:PGJDBCDialect",
             "jdbcapi.oraclejdbc = sqlalchemy_jdbcapi.oraclejdbc:OracleJDBCDialect",
+            "jdbcapi.calcitejdbc = sqlalchemy_jdbcapi.calcitejdbc:CalciteJDBCDialect",
         ]
     },
 )
